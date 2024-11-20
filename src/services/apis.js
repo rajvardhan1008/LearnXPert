@@ -1,5 +1,9 @@
 const BASE_URL = process.env.REACT_APP_BASE_URL
 
+if(!BASE_URL) {
+  console.log("BASE_URL IS Undefined");
+}
+
 // AUTH ENDPOINTS
 export const endpoints = {
   SENDOTP_API: BASE_URL + "/auth/sendotp",
