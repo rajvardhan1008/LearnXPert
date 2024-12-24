@@ -1,4 +1,5 @@
 const BASE_URL = process.env.REACT_APP_BASE_URL
+console.log("IN apis, base_rul = ", BASE_URL);
 
 if(!BASE_URL) {
   console.log("BASE_URL IS Undefined");
